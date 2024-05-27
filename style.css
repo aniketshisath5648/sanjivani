@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 49vw;
+}
+nav{
+    background-color: #87BFFF;
+    height: 5vw;
+    width: 90%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color:#eaf4f4;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.slide1{
+    width: 100%;
+    height: 44vw;
+    background-image: url(S11-scaled.jpg);
+    opacity: 0.8;
+    background-size:cover ;
+
+}
+.group-of-institute{
+    background-image: url(011dd3aa1c731bad2c14dbb9c593ca8d.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 37vw;
+    display: flex;
+    flex-direction: row;
+}
+.group-of-institute-left{
+    /* background-color: #87BFFF; */
+    width: 30%;
+    height: fit-content;
+   padding-left: 12vw;
+   padding-top: 10vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+    
+}
+.group-of-institute-left h1{
+    color: #4b77aa;
+    font-size: 4vw;
+    font-family: c;
+    font-weight: 100;
+}
+.group-of-institute-left .h2{
+    color: #4b77aa;
+    font-size: 2vw;
+    font-family: c;
+    font-weight: 100;
+}
+.group-of-institute-left p{
+    color: #4b77aa;
+    font-size: 1.2vw;
+}
+
+.group-of-institute-right{
+    /* background-color: #87BFFF; */
+    width: 30%;
+    height: fit-content;
+    margin-top: 5vw;
+    margin-left: 4vw;
+   
+}
+.group-of-institute-right img{
+    border: solid grey 2px;
+    border-radius: 1vw;
+}
+.know-more{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    background-color: #4b77aa;
+    width: fit-content  ;
+    padding:0.8vw 0.8vw ;
+    margin-top: 2vw;
+    color: white;
+}
+.group-of-institute-left a{
+    text-decoration: none;
+}
+.best{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.best-c{
+    width: 30%;
+    padding-left: 1vw;
+}
+.best1{
+    background-color: rgb(158, 68, 68);
+}
+.best2{
+    background-color: rgb(83, 97, 2);
+}
+.best3{
+    background-color: rgb(158, 68, 68);
+}
